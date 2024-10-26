@@ -1,0 +1,29 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+$textFont1 : "Playwrite GB S", cursive;
+$primaryColor: #fd9644;
+$secondaryColor: #fed330;
+$tertiaryColor: #fc5c65;
+$tWhite: #d1d8e0;
+$tDark: #000;
+
+body{
+    color: #262626;
+    font-family: "DynaPuff", serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: $textFont1;
+    margin: 0 0 15px;
+}
+p{
+    font-family: $textFont1;
+    margin: 0 0 15px;
+    text-align: center;
+}
+
