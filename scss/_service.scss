@@ -1,0 +1,27 @@
+#service_area{
+    width: 100%;
+    padding: 40px 0;
+    h1{
+        text-align: center;
+    }
+    .container{
+        width: 1140px;
+        max-width: 90%;
+        margin: 0 auto;
+        display: flex;
+    }
+    .chiled_service{
+        background: $primaryColor;
+        text-align: center;
+        padding: 40px 25px;
+        flex: 1;
+        &:nth-child(odd){
+            background: $secondaryColor;
+        }
+        i{
+            font-size: 35px;
+            margin: 0 0 20px;
+        }
+    }
+
+}
