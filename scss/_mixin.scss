@@ -1,9 +1,18 @@
-#cta{
+@mixin flexible{
     display: flex;
     align-items: center;
     justify-content: center;
     height: 400px;
-    background: $tertiaryColor;
     color: $tWhite;
     font-size: 40px;
+}
+#cta{
+    @include flexible();
+    background: $tertiaryColor;
+    
+}
+#cta2{
+    @include flexible();
+    background: $secondaryColor;
+    
 }
